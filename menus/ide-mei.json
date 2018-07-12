@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle ide-mei",
+        "command": "ide-mei:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ide-mei",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "ide-mei:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
