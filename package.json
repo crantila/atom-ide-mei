@@ -1,10 +1,9 @@
 {
   "name": "ide-mei",
   "main": "./lib/ide-mei",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "MEI support for Atom IDE.",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "ide-mei:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
